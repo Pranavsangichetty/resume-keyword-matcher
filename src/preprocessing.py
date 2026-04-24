@@ -1,24 +1,15 @@
-import re
-from nltk.corpus import stopwords
+import nltk
+import os
 
-# Normalize important multi-word skills
-def normalize_skills(text):
-    text = text.lower()
-    text = text.replace("power bi", "powerbi")
-    text = text.replace("machine learning", "machinelearning")
-    text = text.replace("data analysis", "dataanalysis")
-    text = text.replace("data visualization", "datavisualization")
-    return text
+# Ensure stopwords are available in cloud
+nltk_data_path = os.path.join(os.getcwd(), "nltk_data")
 
-def clean_text(text):
-    text = normalize_skills(text)
+if not os.path.exists(nltk_data_path):
+    os.makedirs(nltk_data_path)
 
-    # Remove special characters
-    text = re.sub(r'[^a-zA-Z\s]', '', text)
+nltk.data.path.append(nltk_data_path)
 
-    words = text.split()
-
-    stop_words = set(stopwords.words('english'))
-    words = [word for word in words if word not in stop_words]
-
-    return " ".join(words)
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords', download_dir=nltk_data_path)
