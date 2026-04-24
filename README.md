@@ -1,7 +1,3 @@
-Nice—your README is already strong. I’ll **merge your content + Streamlit section** into a clean, professional final version you can directly paste.
-
----
-
 # 🧠 Resume Keyword Matcher (Mini ATS)
 
 ## 📝 Project Overview
