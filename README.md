@@ -99,7 +99,7 @@ It demonstrates an end-to-end pipeline including **data extraction, preprocessin
 
 ## 🔗 Live Demo
 
-👉 [[https://your-app-name.streamlit.app](https://resume-keyword-matcher-ps.streamlit.app/)]
+👉 [[(https://resume-keyword-matcher-ps.streamlit.app/)](https://resume-keyword-matcher-ps.streamlit.app/)]
 
 ---
 
