@@ -1,0 +1,34 @@
+Job Title: Power BI Data Analyst
+
+Location: Hyderabad, India
+Experience: 1–3 Years
+
+Job Summary:
+We are seeking a detail-oriented and analytical Power BI Data Analyst to join our team. The ideal candidate will be responsible for transforming raw data into meaningful insights using data visualization tools and business intelligence techniques. You will work closely with stakeholders to understand business requirements and deliver data-driven solutions.
+
+Key Responsibilities:
+- Develop, design, and maintain interactive dashboards and reports using Power BI
+- Perform data extraction, transformation, and loading (ETL) processes
+- Write efficient SQL queries to retrieve and manipulate data from databases
+- Analyze large datasets to identify trends, patterns, and insights
+- Collaborate with cross-functional teams to gather and define business requirements
+- Optimize report performance and ensure data accuracy and consistency
+- Automate reporting processes to improve efficiency
+
+Required Skills:
+- Strong proficiency in Power BI (DAX, Power Query, Data Modeling)
+- Experience with SQL and relational databases
+- Knowledge of data analysis and data visualization techniques
+- Proficiency in Microsoft Excel (Pivot Tables, VLOOKUP)
+- Understanding of data warehousing concepts
+- Basic knowledge of Python for data analysis (Pandas, NumPy) is a plus
+- Familiarity with ETL tools and processes
+
+Preferred Qualifications:
+- Bachelor’s degree in Computer Science, Data Science, or related field
+- Experience with business intelligence tools like Tableau is a plus
+- Strong problem-solving and analytical thinking skills
+- Excellent communication and stakeholder management skills
+
+Keywords:
+Power BI, DAX, Power Query, Data Visualization, SQL, Data Analysis, ETL, Data Modeling, Dashboard, Business Intelligence, Excel, Python, Pandas, NumPy, Data Warehousing
