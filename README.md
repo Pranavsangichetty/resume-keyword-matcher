@@ -1,3 +1,7 @@
+Nice—your README is already strong. I’ll **merge your content + Streamlit section** into a clean, professional final version you can directly paste.
+
+---
+
 # 🧠 Resume Keyword Matcher (Mini ATS)
 
 ## 📝 Project Overview
@@ -6,7 +10,7 @@ This project implements a **Resume Keyword Matching System (Mini ATS)** that ran
 
 The system processes raw resume data (PDF files), extracts text, converts it into numerical features, and computes similarity scores to identify the best-matching candidates.
 
-It demonstrates an end-to-end pipeline including **data extraction, preprocessing, feature engineering, similarity computation, and visualization**.
+It demonstrates an end-to-end pipeline including **data extraction, preprocessing, feature engineering, similarity computation, visualization, and deployment**.
 
 ---
 
@@ -15,6 +19,7 @@ It demonstrates an end-to-end pipeline including **data extraction, preprocessin
 | File Name            | Type          | Description                            |
 | -------------------- | ------------- | -------------------------------------- |
 | `main.py`            | Python Script | Entry point to run the entire pipeline |
+| `app.py`             | Streamlit App | Interactive web application            |
 | `data_loader.py`     | Module        | Extracts text from PDF resumes         |
 | `preprocessing.py`   | Module        | Cleans and preprocesses text           |
 | `matcher.py`         | Module        | Computes similarity and ranks resumes  |
@@ -36,6 +41,7 @@ It demonstrates an end-to-end pipeline including **data extraction, preprocessin
 | Similarity Measure   | Cosine Similarity | Compare resumes with job description |
 | Data Handling        | PyPDF2            | Extract text from PDF resumes        |
 | Visualization        | Matplotlib        | Generate ranking graph               |
+| Deployment           | Streamlit         | Interactive web application          |
 
 ---
 
@@ -55,18 +61,14 @@ It demonstrates an end-to-end pipeline including **data extraction, preprocessin
 
 ## 3️⃣ Feature Extraction
 
-* Converted text into numerical vectors using
-
-  * TF-IDF
+* Converted text into numerical vectors using **TF-IDF**
 * Captured importance of keywords across resumes
 
 ---
 
 # 🤖 Matching & Ranking Logic
 
-* Compared resumes with job description using
-
-  * Cosine Similarity
+* Compared resumes with job description using **Cosine Similarity**
 * Generated similarity scores between 0 and 1
 * Ranked resumes based on relevance
 * Extracted matched keywords for interpretability
@@ -97,6 +99,45 @@ It demonstrates an end-to-end pipeline including **data extraction, preprocessin
 
 ---
 
+# 🌐 🚀 Streamlit Web Application
+
+## 🔗 Live Demo
+
+👉 [[https://your-app-name.streamlit.app](https://resume-keyword-matcher-ps.streamlit.app/)]
+
+---
+
+## 🖥️ Features of Web App
+
+* 📄 Upload Job Description (.txt file)
+* 📂 Upload multiple Resume PDFs
+* 🚀 Analyze resumes with one click
+* 🏆 View ranked candidates
+* 🔍 See matched skills
+* 📊 Visual score representation using progress bars
+
+---
+
+## ▶️ Run Locally (Streamlit)
+
+```bash
+pip install -r requirements.txt
+python -m streamlit run app.py
+```
+
+---
+
+## ⚙️ How It Works
+
+1. Upload job description
+2. Upload resumes
+3. Text preprocessing using NLP
+4. Feature extraction using TF-IDF
+5. Similarity calculation using Cosine Similarity
+6. Display ranked results in UI
+
+---
+
 # 📊 Output & Insights
 
 * Ranked list of resumes with scores
@@ -107,7 +148,7 @@ It demonstrates an end-to-end pipeline including **data extraction, preprocessin
 
 ---
 
-# ▶️ How to Run
+# ▶️ How to Run (CLI Version)
 
 ```bash
 pip install -r requirements.txt
@@ -149,11 +190,11 @@ Matched Skills: powerbi, sql, python
 
 # 💡 Future Enhancements
 
-* Build web app using Streamlit
 * Add skill weighting (important skills priority)
 * Support DOCX resumes
-* Improve keyword extraction with NLP models
-* Deploy as API
+* Improve keyword extraction with advanced NLP models
+* Deploy as REST API
+* Enhance UI with advanced dashboards
 
 ---
 
@@ -162,3 +203,4 @@ Matched Skills: powerbi, sql, python
 This project demonstrates a **real-world NLP application** for automating resume screening. It showcases how text data can be transformed into actionable insights using similarity-based techniques.
 
 It is a practical example of applying NLP for **recruitment automation and decision-making**.
+
